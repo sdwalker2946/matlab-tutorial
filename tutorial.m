@@ -40,5 +40,24 @@ title("Displacement of an Underdamped Harmonic Oscillator");
 % [x0] = [x0]
 % [v0] = [v0]
 
+% Define the system of equations as an anonymous function
+% Note: Constants are in SI units
+m = 4;
+b = 4;
+k = 15;
+Y0 = [5, 3]; % Y = [position x, x-velocity v]
+tspan = [min(time), max(time)]; % tmin, tmax
+f = @(t, Y) [Y(2); -(b/m)*Y(2) - (k/m)*Y(1)];
+
+% Simulate the system
+[t, Y] = ode45(f, tspan, Y0);
+
+figure;
+plot(t, Y(:,1), "r"); % Only plot position (column 1)
+xlabel("Time (s)")
+ylabel("Displacement (m)");
+title("Simulated Damped Harmonic Oscillator from Solving the ODE");
+
 % Fit the closed-form solution to the ODE (for constants not known
 % beforehand)
+
