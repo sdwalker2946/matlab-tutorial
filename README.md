@@ -18,20 +18,22 @@
 * Choosing the right language for the job - each language has its strengths and weaknesses.
 
 **Comparing Use Cases for Each Language**
-| **Feature**                      || **MATLAB**                   | **Mathematica**                       |
-|:--------------------------------||:-----------------------------:|:------------------------------------:|
-| Numerical Analysis              || ✅ Excellent for numeric speed| ✅ Very good with arbitrary precision|
-| Scientific Computing            || ✅ Mature and optimized       | ✅ Powerful, especially symbolic-numeric mixed |
-| Large Datasets                 || ✅ Optimized for big data     | ⚠️ Less efficient on very large data |
-| Algebraic Analysis             || ⚠️ Limited symbolic ability   | ✅ Industry-leading symbolic math     |
-| Precise/Closed-Form Solutions  || ⚠️ Weak symbolic closed-form  | ✅ Best-in-class symbolic and exact solutions |
-| Aesthetic Plots               || ✅ High-quality, easy to use  | ✅ Highly customizable and flexible   |
-| Engineering Toolboxes          || ✅ Extensive and specialized  | ⚠️ Limited toolboxes, more general    |
-| Simulink / System Modeling     || ✅ Industry standard           | ❌ Not available                      |
-| Signal/Image Processing        || ✅ Robust, mature toolboxes    | ⚠️ General purpose, less specialized  |
-| Mixed Symbolic and Numeric     || ⚠️ Limited symbolic support   | ✅ Strong workflow integration        |
-| Arbitrary Precision Arithmetic || ⚠️ Not supported natively      | ✅ Native, unlimited precision         |
-| Algorithm Flexibility          || ⚠️ Mostly numerical algorithms| ✅ Highly flexible and adaptive       |
-| Time Performance              || ✅ Generally faster            | ⚠️ Generally slower due to symbolic overhead|
+
+| Feature                     | MATLAB                      | Mathematica                   |
+|:----------------------------|:---------------------------:|:----------------------------:|
+| Numerical Analysis           | ✅ Excellent                 | ✅ Very good                  |
+| Scientific Computing         | ✅ Mature and optimized      | ✅ Powerful, symbolic-numeric |
+| Large Datasets              | ✅ Optimized for big data    | ⚠️ Less efficient             |
+| Algebraic Analysis          | ⚠️ Limited symbolic ability  | ✅ Industry-leading symbolic  |
+| Closed-Form Solutions       | ⚠️ Weak symbolic support     | ✅ Best-in-class symbolic     |
+| Aesthetic Plots            | ✅ High-quality, easy to use | ✅ Highly customizable        |
+| Engineering Toolboxes       | ✅ Extensive and specialized | ⚠️ Limited toolboxes          |
+| Simulink / System Modeling  | ✅ Industry standard         | ❌ Not available              |
+| Signal/Image Processing     | ✅ Robust toolboxes          | ⚠️ General purpose            |
+| Mixed Symbolic and Numeric  | ⚠️ Limited                  | ✅ Strong workflow integration|
+| Arbitrary Precision         | ⚠️ Not supported natively   | ✅ Native unlimited precision |
+| Algorithm Flexibility       | ⚠️ Mostly numerical         | ✅ Highly flexible            |
+| Time Performance           | ✅ Generally faster          | ⚠️ Generally slower           |
+
 
 * Fun Fact: Python libraries (NumPy, Matplotlib) have a similiar interface to MATLAB
