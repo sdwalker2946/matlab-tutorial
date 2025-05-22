@@ -16,7 +16,7 @@
 
 ## A few notes about MATLAB vs. Mathematica
 * Choosing the right language for the job - each language has its strengths and weaknesses.
-
+* Fun Fact: Python libraries (NumPy, Matplotlib) have a similiar interface to MATLAB
 **Comparing Use Cases for Each Language**
 
 | Feature                     | MATLAB                      | Mathematica                   |
@@ -34,6 +34,3 @@
 | Arbitrary Precision         | ⚠️ Not supported natively   | ✅ Native unlimited precision |
 | Algorithm Flexibility       | ⚠️ Mostly numerical         | ✅ Highly flexible            |
 | Time Performance           | ✅ Generally faster          | ⚠️ Generally slower           |
-
-
-* Fun Fact: Python libraries (NumPy, Matplotlib) have a similiar interface to MATLAB
