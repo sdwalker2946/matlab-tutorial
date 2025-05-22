@@ -13,6 +13,10 @@
 4. Click the link to the only option that appears.
 5. Click the "William & Mary's Matlab Portal" link to go to the MATLAB website.
 6. On the website, click the "Sign in to get started" button to go to the sign-in page.
+7. Sign in with your William & Mary account
+8. Create an account if you do not have one already.
+9. Download MATLAB by pressing the "download" button and selecting an operating system.
+* **NOTE:** There is also a web interface (SaaS) available that you can access through your account, where it may be easier to access MATLAB's library packages without having to install them manually (for nonlinear fitting, optimization, statistics, etc.).
 
 ## A few notes about MATLAB vs. Mathematica
 * Choosing the right language for the job - each language has its strengths and weaknesses.
