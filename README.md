@@ -12,3 +12,4 @@
 * Choosing the right language for the job
 * MATLAB Strengths: numerical analysis, scientific computing, large datasets
 * Mathematica Strengths: algebraic analysis, precise closed-form solutions, aesthetic plots
+* Fun Fact: Python libraries (NumPy, Matplotlib) have a similiar interface to MATLAB
