@@ -61,3 +61,14 @@ title("Simulated Damped Harmonic Oscillator from Solving the ODE");
 % Fit the closed-form solution to the ODE (for constants not known
 % beforehand)
 
+ftype = fittype("exp(-k*x) * (A*cos(w*x) + B*sin(w*x))");
+foptions = fitoptions(ftype);
+foptions.StartPoint = [3,3,0.5,2];
+foptions.Lower = [0,0,0,0];
+foptions.Upper = [10,10,3,10];
+
+bestFit = fit(time, displacement, ftype, foptions);
+disp(bestFit);
+
+figure;
+plot(bestFit, time, displacement);
