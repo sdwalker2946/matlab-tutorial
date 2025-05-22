@@ -16,7 +16,8 @@
 
 ## A few notes about MATLAB vs. Mathematica
 * Choosing the right language for the job - each language has its strengths and weaknesses.
-* Fun Fact: Python libraries (NumPy, Matplotlib) have a similiar interface to MATLAB
+* Fun Fact: Python libraries (NumPy, Matplotlib) have a similiar interface to MATLAB.
+
 **Comparing Use Cases for Each Language**
 
 | Feature                     | MATLAB                      | Mathematica                   |
