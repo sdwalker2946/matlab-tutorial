@@ -54,7 +54,7 @@ f = @(t, Y) [Y(2); -(b/m)*Y(2) - (k/m)*Y(1)];
 
 figure;
 plot(t, Y(:,1), "r"); % Only plot position (column 1)
-xlabel("Time (s)")
+xlabel("Time (s)");
 ylabel("Displacement (m)");
 title("Simulated Damped Harmonic Oscillator from Solving the ODE");
 
@@ -72,3 +72,7 @@ disp(bestFit);
 
 figure;
 plot(bestFit, time, displacement);
+xlabel("Time (s)");
+ylabel("Displacement (m)");
+title("Fitted Damped Harmonic Oscillator Behavior");
+legend("Measured Data","Fit: x(t) = exp(-kt)(Acos(wt)+Bsin(wt))");
